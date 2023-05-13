@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TV & Movie Watchlist</title>
+    <link rel="stylesheet" type="text/css" href="style-watchlist-ai.css">
+</head>
+<body>
+    <h1>TV & Movie Watchlist</h1>
+    <form id="watchlistForm">
+        <input type="text" id="title" placeholder="Title" required>
+        <input type="text" id="image" placeholder="Image URL">
+        <input type="text" id="availableOn" placeholder="Available On" required>
+        <input type="text" id="episode" placeholder="Episode">
+        <input type="text" id="viewer" placeholder="Viewer" required>
+        <input type="date" id="dateWatched" required>
+        <input type="number" id="rating" min="1" max="10" placeholder="Rating (1-10)" required>
+        <button type="submit">Add to Watchlist</button>
+    </form>
+    <div id="watchlist"></div>
+    <script src="script-watchlist-ai.js"></script>
+</body>
+</html>
